@@ -1,5 +1,5 @@
 ---
 
 - name: Install script
-  shell: |
-    curl -sSL https://rexray.io/install | sh -s -- {{ rexray_channel }}
+  shell: 
+    cmd: "curl -sSL https://rexray.io/install | sh -s -- {{ rexray_channel }}"
